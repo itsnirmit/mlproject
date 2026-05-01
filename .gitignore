@@ -1,4 +1,40 @@
-venv/
-.DS_Store
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# venv/
+# .DS_Store
+# __pycache__/
+# *.pyc
